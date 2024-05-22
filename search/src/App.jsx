@@ -32,7 +32,7 @@ function onSubmit(e){
         <div key={index}>{item}</div>
   ))}
      </div>
-     <p>just  practice</p>
+     <p>just for practice</p>
     </>
   )
 }
