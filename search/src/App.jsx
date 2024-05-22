@@ -32,6 +32,7 @@ function onSubmit(e){
         <div key={index}>{item}</div>
   ))}
      </div>
+     <p>just for practice</p>
     </>
   )
 }
