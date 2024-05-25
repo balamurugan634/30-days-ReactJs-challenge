@@ -76,6 +76,11 @@ function App() {
   //     handleSubmit()
   //   }
   // }
+  function handleKey(e){
+    if(e.key==="Enter"){
+      handleSubmit()
+    }
+  }
   return (
     <div className="full-box">
       <div className="box">
@@ -85,6 +90,7 @@ function App() {
             value={text}
             id="searchval"
             onChange={(e) => setText(e.target.value)}
+            onKeyDown={(e)=>handleKey(e)}
           />
           <span>
             <button onClick={handleSubmit}>search</button>
