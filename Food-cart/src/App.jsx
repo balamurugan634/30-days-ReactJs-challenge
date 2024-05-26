@@ -14,7 +14,7 @@ function App() {
     <cartContext.Provider value={{food,setFood}}>
    <BrowserRouter>
       <Header />
-      <div className="container">
+      <div className="hcontainer">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cart' element={<MyCart />} />
