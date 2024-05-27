@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "qn":"who is captain of CSK ?",
+        "opt":[
+            "Raina",
+            "Dhoni",
+            "Ruturaj"
+        ],
+        "ans":"Dhoni"
+    },
+    {
+        "id":2,
+        "qn":"who is captain of RCB ?",
+        "opt":[
+            "Raina",
+            "Kohli",
+            "Ruturaj"
+        ],
+        "ans":"Kohli"
+    },
+    {
+        "id":3,
+        "qn":"who is captain of MI ?",
+        "opt":[
+            "Rohit",
+            "Dhoni",
+            "Ruturaj"
+        ],
+        "ans":"Rohit"
+    }
+]
