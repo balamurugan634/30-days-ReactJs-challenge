@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar{
+  width: 400px;
+  padding: 5px;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+select{
+  font-size: 18px;
+  padding: 0px 8px;
+  border: none;
+}
+.daysofweek{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7,1fr);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.day_main{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 10px;
+  text-align: center;
+}
+.day,.empty{
+  border: 1px solid #ccc;
+  padding: 4px;
+  cursor: pointer;
+
+}
+.day:hover{
+  background: blueviolet;
+}
+.current{
+  background-color: tomato;
+}
