@@ -1,0 +1,38 @@
+.form-etd {
+  width: 100%;
+}
+.form-etd label {
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Ca
+    ntarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form-etd input[type="text"],
+.form-etd input[type="number"] {
+  width: 70%;
+  padding: 2px;
+}
+.form{
+    width:inherit;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 10px;
+}
+.form-etd input[type='radio'],.form-etd input[type='checkbox']:hover{
+    cursor: pointer;
+}
+.marry_val{
+    /* width: 100%; */
+    /* display: flex; */
+    gap: 8px;
+    margin-right: 10px;
+    text-align: center;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+.form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

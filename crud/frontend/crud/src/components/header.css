@@ -1,0 +1,21 @@
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+}
+nav {
+  padding: 10px;
+}
+.logo {
+  text-align: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.gender {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 7px;
+}
